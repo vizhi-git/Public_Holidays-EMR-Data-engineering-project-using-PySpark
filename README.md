@@ -18,7 +18,7 @@ fixed: A boolean indicating whether the holiday occurs on a fixed date every yea
 ###2. Data Processing (PySpark)
 Loading Data into Spark: The JSON data received from the API is loaded into a PySpark DataFrame. This allows for distributed data processing and transformation, making the analysis scalable.
 
-### Data Transformation:
+### 2.Data Transformation:
 
 Date Parsing: The date field is parsed to extract the year and month to support better time-based analysis and filtering.
 Data Cleaning: Any missing or inconsistent data (e.g., missing holiday names or invalid date formats) is handled to ensure the dataset is complete and accurate.
